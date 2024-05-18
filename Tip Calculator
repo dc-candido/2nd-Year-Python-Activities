@@ -1,0 +1,7 @@
+a = eval(input('Enter the price of meal : '))
+b = eval(input('Enter the percent of tip you want to leave : '))
+
+t=(b/100)*a
+c= a+t
+
+print('Bill of meal : ', a, 'Total bill : ' , c)
