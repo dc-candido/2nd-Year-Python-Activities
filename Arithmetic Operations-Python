@@ -1,0 +1,9 @@
+x= eval(input("Please enter the first number:"))
+y= eval(input("Please enter the second number:"))
+z= eval(input("Please enter the third number:"))
+
+T= x+y+z
+A=(x+y+z)/3
+
+print("Total of three number", T) 
+print("The average of three number is:", A)
