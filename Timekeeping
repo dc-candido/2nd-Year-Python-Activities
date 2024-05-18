@@ -1,0 +1,22 @@
+user = eval(input('enter hour :'))   
+day = input('enter am (1) or pm (2) :')
+hour = eval(input('How many hours ahead ?:'))
+
+hour += user
+
+if hour > 24:
+        print('cant convert that time.')
+        
+elif hour >= 1 and hour <= 12 and day == '1':
+        print(f'New hour : {hour}', end='am')
+        print()
+        
+elif hour > 12 and hour <= 24 and day == '1':
+        hour = hour - 12
+        print(f'New hour : {hour}', end='pm')
+        print()
+        
+elif hour >= 12 and hour <= 24 and day == '2':
+        hour = hour - 12
+        print(f'New hour : {hour}', end='pm')
+        print()
