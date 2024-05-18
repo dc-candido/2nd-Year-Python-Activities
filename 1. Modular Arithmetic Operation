@@ -1,0 +1,3 @@
+power = int(input("Enter power: "))
+ans = 2**power
+print(ans % 10)
